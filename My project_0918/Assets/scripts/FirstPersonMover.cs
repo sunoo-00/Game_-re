@@ -20,8 +20,10 @@ public class FirstPersonMover : MonoBehaviour
 
     private void Start()
     {
+        Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
+
     private void Update()
     {
         if (!canMove) return;
@@ -33,6 +35,12 @@ public class FirstPersonMover : MonoBehaviour
         Vector3 dir = transform.forward * moveInput.y
                     + transform.right * moveInput.x;
         cc.SimpleMove(dir * moveSpeed);
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
     }
 
     public void OnMove(InputValue value)
