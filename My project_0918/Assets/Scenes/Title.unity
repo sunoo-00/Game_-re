@@ -1233,7 +1233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c72628f05149af41a0cad430f7db6db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
-  sceneName: SampleScene
+  sceneName: outside_Scene
 --- !u!1 &1985159559
 GameObject:
   m_ObjectHideFlags: 0
