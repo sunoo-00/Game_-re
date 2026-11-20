@@ -1995,11 +1995,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 716267912}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c72628f05149af41a0cad430f7db6db, type: 3}
+  m_Script: {fileID: 11500000, guid: 85a8da1180c110d49820c439c7a17e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneZone
   prompt: {fileID: 1446782241}
-  sceneName: Inside_Scene
+  sceneName: outside_Scene
 --- !u!1 &735647917
 GameObject:
   m_ObjectHideFlags: 0
